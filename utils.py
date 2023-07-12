@@ -11,7 +11,7 @@ def get_btc_price(symbol):
 
     print("BTC Price:", btc_price)
 
-
+# 获取历史价格
 def save_historical_data_to_csv(filename, symbol, timeframe, limit):
     exchange = ccxt.binance()  # 连接到Binance交易所
 
